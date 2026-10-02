@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btnPoziomica" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="1. Poziomica bąbelkowa" />
+    <Button android:id="@+id/btnShake" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="2. Shake detektor" />
+    <Button android:id="@+id/btnKrokomierz" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="3. Krokomierz" />
+    <Button android:id="@+id/btnLista" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="4. Lista czujników" />
+    <Button android:id="@+id/btnPredkosc" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="5. Prędkościomierz" />
+</LinearLayout>
